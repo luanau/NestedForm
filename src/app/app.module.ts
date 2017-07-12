@@ -3,10 +3,11 @@ import { BrowserModule } from '@angular/platform-browser';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 
 import { AppComponent }   from './app.component';
+import { AddressComponent }   from './address.component';
 
 @NgModule({
   imports:      [ BrowserModule, ReactiveFormsModule ],
-  declarations: [ AppComponent ],
+  declarations: [ AppComponent, AddressComponent ],
   bootstrap:    [ AppComponent ]
 })
 
